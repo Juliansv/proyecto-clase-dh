@@ -1,0 +1,12 @@
+/* tablet */
+.burger-menu {
+    display: none;
+}
+
+.product-info .descripcion {
+    display: initial;
+}
+
+.product {
+    width: 50%;
+}
