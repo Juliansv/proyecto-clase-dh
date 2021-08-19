@@ -41,6 +41,7 @@
 
 .precios {
     font-size: 18px;
+    margin-right: 10px;
 }
 
 .descuentos {
@@ -66,6 +67,7 @@
 }
 
 .product-info {
+    position: relative;
     border-top: 1px solid #ebebeb;
     padding: 15px;
 }
@@ -94,11 +96,15 @@
 }
 
 .truck-icon {
+    display: block;
     font-size: 16px;
     padding: 5px;
-    display: block;
     width: 30px;
     height: 30px;
     border: 1px solid #39b54a;
+    background-color: #FFF;
     border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
