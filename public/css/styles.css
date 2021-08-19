@@ -52,11 +52,6 @@
     font-size: 16px;
 }
 
-.products {
-    display: flex;
-    flex-direction: column;
-}
-
 .product-wrapper {
     margin: 5px 0;
     background-color: white;
