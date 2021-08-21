@@ -8,6 +8,16 @@
     justify-content: center;
 }
 
+.nav-item {
+    padding: 8px;
+    display: initial;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
 .fa-bars {
     padding: 10px;
     background-color: #1259c3;
@@ -89,4 +99,23 @@
     position: absolute;
     right: 20px;
     top: -15px;
+}
+
+.form-input {
+    margin-bottom: 23px;
+}
+
+.form-input .main-label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-input input {
+    width: 100%;
+}
+
+.form-input input[type="checkbox"],
+.form-input input[type="radio"] {
+    width: auto;
 }
